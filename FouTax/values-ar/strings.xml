@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FoTax</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="buy_price">سعر الشراء</string>
+    <string name="selling_price">سعر البيع</string>
+    <string name="tax">الضريبة</string>
+    <string name="profit">الربح</string>
+    <string name="calculate_tax">احسب الضريبة</string>
+</resources>

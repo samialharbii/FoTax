@@ -1,0 +1,10 @@
+
+<resources>
+	<string name="app_name">FoTax</string>
+	<string name="action_settings">Settings</string>
+	<string name="buy_price">Buy Price</string>
+	<string name="selling_price">Selling Price</string>
+	<string name="tax">Tax</string>
+	<string name="profit">Profit</string>
+	<string name="calculate_tax">Calculate Tax</string>
+</resources>
