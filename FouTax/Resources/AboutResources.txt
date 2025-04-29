@@ -10,11 +10,15 @@ would keep its resources in the "Resources" directory of the application:
 Resources/
     drawable/
         icon.png
+        back.png
+        edittext_background.xml
 
     layout/
         main.xml
 
     values/
+        strings.xml
+    values-ar/
         strings.xml
 
 In order to get the build system to recognize Android resources, set the build action to

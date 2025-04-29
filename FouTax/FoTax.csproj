@@ -38,6 +38,10 @@
 		<AndroidEnableResourceShrinking>true</AndroidEnableResourceShrinking>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android34.0|AnyCPU'">
+	  <AndroidLinkTool>r8</AndroidLinkTool>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<PackageReference Include="Xamarin.Android.Google.BillingClient" />
 		<PackageReference Include="Xamarin.AndroidX.AppCompat" />

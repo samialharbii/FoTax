@@ -1,0 +1,7 @@
+# «·«Õ ›«Ÿ »Ã„Ì⁄ «·√‰‘ÿ…
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+
+# «·«Õ ›«Ÿ »«·—„Ê“ «·„ÿ·Ê»… ··≈⁄·«‰« 
+-keep class com.google.android.gms.** { *; }
+-keep class com.android.billingclient.** { *; }
