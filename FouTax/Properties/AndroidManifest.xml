@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="8" android:versionName="1.7" package="com.samialharbii.FoTax">
-	<uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35" />
-	<application android:allowBackup="true" android:icon="@drawable/coins" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme"></application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="13" android:versionName="1.12" package="com.samialharbii.FoTax">
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="com.android.vending.BILLING" />
+	<uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+	<application android:allowBackup="true" android:icon="@drawable/coins" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme" android:extractNativeLibs="true" android:name="android.app.Application">
+		<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-6480254994445455~1542504732" />
+		<activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="crc64111046265badeffd.MainActivity" android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.samialharbii.FoTax.mono.MonoRuntimeProvider.__mono_init__" />
+	</application>
 </manifest>

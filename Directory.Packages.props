@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <NoWarn>$(NoWarn);NU1507</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.Maui.Controls" Version="10.0.0-preview.3.25208.1" />
+    <PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="10.0.0-preview.3.25208.1" />
+    <PackageVersion Include="Xamarin.Android.Google.BillingClient" Version="7.1.1.2" />
+    <PackageVersion Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.5" />
+    <PackageVersion Include="Xamarin.AndroidX.Browser" Version="1.8.0.8" />
+    <PackageVersion Include="Xamarin.AndroidX.Collection.Jvm" Version="1.5.0" />
+    <PackageVersion Include="Xamarin.AndroidX.Collection.Ktx" Version="1.5.0" />
+    <PackageVersion Include="Xamarin.Google.Android.Material" Version="1.12.0.2" />
+    <PackageVersion Include="Xamarin.GooglePlayServices.Ads" Version="124.0.0" />
+  </ItemGroup>
+</Project>
